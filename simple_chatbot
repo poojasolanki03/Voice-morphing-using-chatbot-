@@ -1,0 +1,15 @@
+print("Welcome to the Simple Chatbox!")
+
+while True:
+    user_input = input("You: ").lower()  # Convert input to lowercase for case-insensitive comparisons
+    
+    if user_input == "hello":
+        print("Bot: Hi there!")
+    elif user_input == "how are you":
+        print("Bot: I'm just a computer program, but thanks for asking!")
+    elif user_input == "bye":
+        print("Bot: Goodbye!")
+        break  # Exit the loop to end the chat
+    else:
+        print("Bot: Sorry, I don't understand that.")
+
